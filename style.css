@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
+.button-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1183px;
+}
+.button-group {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 2px; /* Reduce space between buttons */
+}
+button {
+    font-size: 15px;
+    padding: 0px 5px;
+}
+span {
+    font-size: 20px;
+}
+.highlight {
+    background-color: yellow; /* Example style */
+}
+
+.play, .pause, .reestart {
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+    border: none;
+}

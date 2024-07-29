@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>celulas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="button-container">
+         <!-- Group 1 -->
+         <div class="button-group" id="group1" style="top: 200px; left: 1px;">
+            <button id="decrement1" class="btn">-</button>
+            <span id="value1" class="value"></span>
+            <button id="increment1" class="btn">+</button>
+        </div>
+        
+        <!-- Group 2 -->
+        <div class="button-group" id="group2" style="top: 200px; right: 1px;">
+            <button id="decrement2" class="btn">-</button>
+            <button id="increment2" class="btn">+</button>
+        </div>
+        
+        <!-- Group 3 -->
+        <div class="button-group" id="group3" style="bottom: -195px; left: 1px;">
+            <button id="decrement3" class="btn">-</button>
+            <button id="increment3" class="btn">+</button>
+        </div>
+        
+        <!-- Group 4 -->
+        <div class="button-group" id="group4" style="bottom: -195px; right: 1px;">
+            <button id="decrement4" class="btn">-</button>
+            <button id="increment4" class="btn">+</button>
+        </div>
+
+        <button class="play" id="play" style= "top: 180px; left: 400px;"><img src="play-button.png" alt=""></button>
+
+        <button class="pause" id="pause" style= "top: 180px; left: 500px;"><img src="pause-button.png" alt=""></button>
+
+        <button class="reestart" id="reestart" style= "top: 180px; left: 600px;"><img src="reestart-button .png" alt=""></button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="main.js"></script>
+</body>
+</html>
