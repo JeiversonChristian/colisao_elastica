@@ -440,6 +440,16 @@ window.onload = function() {
             acabou = true;
             som_aee.play();
         }
+        else if(acabou == false && pode_atualizar_pos1 == false && c2v == 0)
+        {
+            acabou = true;
+            som_aee.play();
+        }
+        else if(acabou == false && pode_atualizar_pos2 == false && c1v == 0)
+            {
+                acabou = true;
+                som_aee.play();
+            }
     }
     // --------------------------------------------------------------------------------
     
