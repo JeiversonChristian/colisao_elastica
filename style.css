@@ -37,9 +37,17 @@ span {
     background-color: yellow; /* Example style */
 }
 
-.play, .pause, .reestart {
+a{
+    color: white;
+}
+
+.play, .pause, .reestart, .link{
     position: absolute;
     display: flex;
     background-color: transparent;
     border: none;
+}
+
+#assinatura {
+    padding-top: 10px;
 }
